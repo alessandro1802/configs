@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/alessandro/Data/sem5/ia/project/tournamentSystem/views'
+let g:netrw_dirhist_3='/home/alessandro/Data/sem5/ia/lab8/additional/store/public'
+let g:netrw_dirhist_2='/home/alessandro/Data/sem5/ia/lab8/chat'
+let g:netrw_dirhist_1='/home/alessandro/Data/sem5/ia/lab8/chat/server'

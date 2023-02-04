@@ -1,6 +1,6 @@
 " Syntax adaptation
 filetype on
-filetype indent on
+"filetype indent on
 syntax on
 
 " Colorscheme
@@ -15,6 +15,7 @@ set cursorline
 
 " Tab width
 set tabstop=4
+set shiftwidth=4
 
 " Don't wrap long lines
 set nowrap
