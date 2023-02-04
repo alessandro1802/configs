@@ -11,7 +11,7 @@ sudo dnf install vim-X11
 ~/.vim/
 ```
 
-
+`ln -sr TARGET POINTER` relative to cwd
 
 # zsh
 
@@ -22,11 +22,17 @@ sudo dnf install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+Make it the *default shell*:
+
+```bash
+chsh -s $(which zsh)
+```
+
+
+
 ```
 ~/.zshrc
 ```
-
-
 
 # tmux
 
@@ -35,8 +41,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
   ```bash
   sudo dnf install xclip
   ```
-
-
 
 # Scripts
 
