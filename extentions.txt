@@ -1,0 +1,5 @@
+https://extensions.gnome.org/extension/1460/vitals/
+https://extensions.gnome.org/extension/307/dash-to-dock/
+https://extensions.gnome.org/extension/779/clipboard-indicator/
+https://extensions.gnome.org/extension/1414/unblank/
+https://extensions.gnome.org/extension/1007/window-is-ready-notification-remover/
