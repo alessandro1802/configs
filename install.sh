@@ -2,6 +2,7 @@
 
 dnf install -y \
 	gnome-tweaks \
+	libgnome \
 	python3.8 \
 	thunderbird \
 	vim-X11 \
