@@ -9,14 +9,17 @@ dnf install -y \
 	zsh \
 	util-linux-user \
 	xclip \
-	neofetch
+	neofetch \
+	tmux \
+
 dnf remove -y libreoffice*
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
 flatpak install -y flathub \
 	com.mattjakeman.ExtensionManager \
 	com.visualstudio.code \
 	md.obsidian.Obsidian \
 	org.libreoffice.LibreOffice \
-	org.telegram.desktop\
-	com.discordapp.Discord
+	org.telegram.desktop \
+	com.discordapp.Discord \
