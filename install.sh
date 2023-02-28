@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Install applications
 sudo dnf install -y \
@@ -26,8 +26,8 @@ sudo flatpak install -y flathub \
 	com.discordapp.Discord \
 
 # Create symlinks to Vim config and files
-ln -srf ./vim/.vimrc ~/
-ln -srf ./vim/.vim ~/
+ln -srf vim/.vimrc ~/
+ln -srf vim/.vim ~/
 
 # Create symlink to zsh config
 ln -srf zsh/.zshrc ~/
@@ -39,7 +39,7 @@ chsh -s $(which zsh)
 # Create symlinks to tmux config and files
 git clone https://github.com/gpakosz/.tmux.git ~/.tmux
 ln -sr  ~/.tmux/.tmux.conf ~/
-ln -sr ./.tmux.conf.local ~/
+ln -sr tmux/.tmux.conf.local ~/
 
 # Create symlink to scripts (already on $PATH in the zsh config)
-ln -sr ./.bin ~/
+ln -sr .bin ~/
